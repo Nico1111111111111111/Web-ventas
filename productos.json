@@ -1,0 +1,109 @@
+[
+    {
+        "id" : "1",
+        "name" : "Nariz",
+        "description" : "",
+        "price" : "€",
+        "stock" : "",
+        "Categoria" : "vestimenta"
+    },
+    {
+        "id" : "2",
+        "name" : "fewfewd",
+        "description" : "",
+        "price" : "€",
+        "stock" : "",
+        "Categoria" : "maquillaje"
+    },
+    {
+        "id" : "3",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "4",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "5",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "6",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "7",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "8",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "9",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "10",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "11",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "12",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "13",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "14",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    },
+    {
+        "id" : "15",
+        "name" : "",
+        "description" : "",
+        "price" : "€",
+        "stock" : ""
+    }
+]
