@@ -24,16 +24,18 @@
         </section>
     </main>
 
-    <dialog id="cartModal">
-        <div class="modalHeading">
-            <h2>Tu cesta</h2>
-            <button id="closeCartButton">Cerrar</button>
+    <div id="cartModal" class="modal">
+        <div class="modalContent">
+            <div class="modalHeading">
+                <h2>Tu cesta</h2>
+                <button id="closeCartButton">Cerrar</button>
+            </div>
+            <p id="deliveryMessage"></p>
+            <div id="cartDiv">El carrito está vacío.</div>
+            <p class="total">Total: <span id="modalTotal">0,00 €</span></p>
+            <button id="finishButton">Finalizar Compra</button>
         </div>
-        <p id="deliveryMessage"></p>
-        <div id="cartDiv">El carrito está vacío.</div>
-        <p class="total">Total: <span id="modalTotal">0,00 €</span></p>
-        <button id="finishButton">Finalizar Compra</button>
-    </dialog>
+    </div>
 
     <script src="script.js"></script>
 </body>

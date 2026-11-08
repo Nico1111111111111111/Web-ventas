@@ -18,23 +18,24 @@ fetch("userData.json")
         usuario = data;
     });
 
-document.getElementById("showCartButton").addEventListener("click", function () {
+document.getElementById("showCartButton").onclick = function () {
     document.getElementById("deliveryMessage").innerText =
         "Enviando pedido a: " + usuario.name + ", " + usuario.address;
-    cartModal.showModal();
-});
+    mostrarCarrito();
+    cartModal.style.display = "block";
+};
 
-document.getElementById("closeCartButton").addEventListener("click", function () {
-    cartModal.close();
-});
+document.getElementById("closeCartButton").onclick = function () {
+    cartModal.style.display = "none";
+};
 
-document.getElementById("finishButton").addEventListener("click", function () {
+document.getElementById("finishButton").onclick = function () {
     carrito = [];
     mostrarCarrito();
-    cartModal.close();
-});
+    cartModal.style.display = "none";
+};
 
-document.getElementById("select").addEventListener("change", function () {
+document.getElementById("select").onchange = function () {
     let categoria = this.value;
     let lista = [];
 
@@ -45,7 +46,7 @@ document.getElementById("select").addEventListener("change", function () {
     }
 
     mostrarProductos(lista);
-});
+};
 
 function mostrarProductos(lista) {
     productHolder.innerHTML = "";
@@ -69,9 +70,9 @@ function mostrarProductos(lista) {
 
         const button = document.createElement("button");
         button.innerText = "Añadir al carrito";
-        button.addEventListener("click", function () {
+        button.onclick = function () {
             agregarAlCarrito(product);
-        });
+        };
 
         productDiv.appendChild(nameElement);
         productDiv.appendChild(descriptionElement);
@@ -98,6 +99,7 @@ function agregarAlCarrito(product) {
             } else {
                 alert("No hay más unidades disponibles.");
             }
+            break;
         }
     }
 
@@ -134,20 +136,20 @@ function mostrarCarrito() {
         quantity.min = 1;
         quantity.max = producto.stock;
         quantity.value = producto.cantidad;
-        quantity.addEventListener("change", function () {
+        quantity.onchange = function () {
             let cantidad = Number(quantity.value);
             if (cantidad < 1) cantidad = 1;
             if (cantidad > producto.stock) cantidad = producto.stock;
             producto.cantidad = cantidad;
             mostrarCarrito();
-        });
+        };
 
         const removeButton = document.createElement("button");
         removeButton.innerText = "Quitar";
-        removeButton.addEventListener("click", function () {
+        removeButton.onclick = function () {
             carrito.splice(i, 1);
             mostrarCarrito();
-        });
+        };
 
         item.appendChild(quantity);
         item.appendChild(removeButton);
