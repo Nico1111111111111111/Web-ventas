@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Articulos para payasos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <select id="select">Categorías 
-            <option value="todo">Todo</option>
-            <option value="maquillaje">Maquillaje</option>
-            <option value="vestimenta">Vestimenta</option>
-    </select>
-    <h1>Productos</h1>
-
-    <div id="productDiv">
-        
-    </div>
-
+    <main>
+        <section>
+            <h2>Productos</h2>
+            <p>Categoría:</p>
+            <select id="select">
+                <option value="todo">Todo</option>
+                <option value="maquillaje">Maquillaje</option>
+                <option value="vestimenta">Vestimenta</option>
+            </select>
+            <div id="productDiv" class="products"></div>
+        </section>
+        <section class="cartSection">
+            <h2>Carrito</h2>
+            <div id="cartDiv">El carrito está vacío.</div>
+            <p class="total">Total: <span id="cartTotal">0,00 €</span></p>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

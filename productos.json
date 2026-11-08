@@ -1,109 +1,122 @@
 [
     {
         "id" : "1",
-        "name" : "Nariz",
-        "description" : "",
-        "price" : "€",
-        "stock" : "",
+        "name" : "Nariz de payaso roja",
+        "description" : "Nariz de espuma ligera para completar tu personaje.",
+        "price" : 3.50,
+        "stock" : 12,
         "Categoria" : "vestimenta"
     },
     {
         "id" : "2",
-        "name" : "fewfewd",
-        "description" : "",
-        "price" : "€",
-        "stock" : "",
+        "name" : "Pintura facial blanca",
+        "description" : "Maquillaje al agua para crear una base blanca.",
+        "price" : 5.90,
+        "stock" : 8,
         "Categoria" : "maquillaje"
     },
     {
         "id" : "3",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Peluca de rizos multicolor",
+        "description" : "Peluca ligera con rizos de varios colores.",
+        "price" : 14.90,
+        "stock" : 5,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "4",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Traje de payaso clásico",
+        "description" : "Traje amplio y colorido para actuar con comodidad.",
+        "price" : 39.90,
+        "stock" : 4,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "5",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Zapatos grandes de payaso",
+        "description" : "Zapatos llamativos con suela plana para disfraz.",
+        "price" : 24.50,
+        "stock" : 6,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "6",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pintura facial roja",
+        "description" : "Color rojo al agua para nariz, mejillas y detalles.",
+        "price" : 4.50,
+        "stock" : 10,
+        "Categoria" : "maquillaje"
     },
     {
         "id" : "7",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pintura facial azul",
+        "description" : "Pintura azul al agua para dibujos y adornos.",
+        "price" : 4.50,
+        "stock" : 9,
+        "Categoria" : "maquillaje"
     },
     {
         "id" : "8",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pintura facial amarilla",
+        "description" : "Pintura amarilla al agua para un maquillaje alegre.",
+        "price" : 4.50,
+        "stock" : 7,
+        "Categoria" : "maquillaje"
     },
     {
         "id" : "9",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pajarita de lunares",
+        "description" : "Pajarita grande con lunares de colores.",
+        "price" : 8.90,
+        "stock" : 8,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "10",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Sombrero de copa divertido",
+        "description" : "Sombrero ligero decorado con una flor de tela.",
+        "price" : 12.00,
+        "stock" : 3,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "11",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Guantes blancos",
+        "description" : "Par de guantes elásticos para completar el vestuario.",
+        "price" : 6.50,
+        "stock" : 11,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "12",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Tirantes de colores",
+        "description" : "Tirantes ajustables para un conjunto llamativo.",
+        "price" : 9.50,
+        "stock" : 6,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "13",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pelota de malabares",
+        "description" : "Pelota blanda para practicar trucos y malabares.",
+        "price" : 3.00,
+        "stock" : 15,
+        "Categoria" : "vestimenta"
     },
     {
         "id" : "14",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pintura facial negra",
+        "description" : "Pintura al agua para contornos y pequeños detalles.",
+        "price" : 4.50,
+        "stock" : 5,
+        "Categoria" : "maquillaje"
     },
     {
         "id" : "15",
-        "name" : "",
-        "description" : "",
-        "price" : "€",
-        "stock" : ""
+        "name" : "Pañuelo mágico de colores",
+        "description" : "Pañuelo ligero para trucos de magia y actuaciones.",
+        "price" : 7.90,
+        "stock" : 10,
+        "Categoria" : "vestimenta"
     }
 ]
